@@ -1,0 +1,133 @@
+{
+
+	"20200531_112500.jpg": {
+		"recipe_name": "coconut chutney",
+		"food_item": "coconut"
+
+	},
+	"20200609_083630.jpg": {
+		"recipe_name": "Medu Vada",
+		"food_item": ["coconut", "coconut chutney", "sambar"]
+
+	},
+
+	"20200611_082417.jpg": {
+		"recipe_name": "Poha",
+		"food_item": ["chidwa", "chirva", "sambar", "coconut chutney"]
+
+	},
+
+	"20200611_100949.jpg": {
+		"recipe_name": "Begun Posto",
+		"food_item": ["Brinjal", "eggplant", "Begun", "Baigan", "Posto", "poppy seeds"]
+
+	},
+
+	"20200612_092945.jpg": {
+		"recipe_name": "Upma",
+		"food_item": ["green salad", "upma", "sooji", "rawa"]
+
+	},
+
+	"20200614_104350.jpg": {
+		"recipe_name": "idli",
+		"food_item": ["coconut chutney", "idli", "pudina chutney"]
+
+	},
+
+	"20200616_192433.jpg": {
+		"recipe_name": "veg schezuwan",
+		"food_item": ["panner", "babycorn", "musroom"]
+
+	},
+
+	"20200621_195836.jpg": {
+		"recipe_name": "gobi manchurian",
+		"food_item": ["gobi", "panner", "mushroom"]
+
+	},
+
+	"20200627_131915.jpg": {
+		"recipe_name": "veg biryani",
+		"food_item": ["biryani", "rice"]
+
+	},
+
+	"20200628_190103.jpg": {
+		"recipe_name": "mashed potato",
+		"food_item": ["vegies", "mashed potato"]
+
+	},
+
+	"20200706_170120.jpg": {
+		"recipe_name": "shahi panner",
+		"food_item": "paneer"
+
+	},
+
+	"20200710_133329.jpg": {
+		"recipe_name": "idli sambar",
+		"food_item": ["idli", "cocnut chutney", "sambar"]
+
+	},
+
+	"20200718_123352.jpg": {
+		"recipe_name": "vindi posto",
+		"food_item": ["posto", "poppy seeds", "vindi", "lady's finger"]
+
+	},
+
+	"20200723_105532.jpg": {
+		"recipe_name": "egg dosa",
+		"food_item": ["egg", "dosa"]
+
+	},
+
+	"20200725_134802.jpg": {
+		"recipe_name": "fluffy egg dosa",
+		"food_item": ["egg", "dosa"]
+
+	},
+
+	"20200725_230359.jpg": {
+		"recipe_name": "egg shakshouka",
+		"food_item": ["egg", "egg curry"]
+	},
+
+	"20200726_130413.jpg": {
+		"recipe_name": "baigan mushroom curry",
+		"food_item": ["brinjal", "baigan", "mushroom", "begun"]
+
+	},
+
+	"20200729_103357.jpg": {
+		"recipe_name": "egg poach and bread toast",
+		"food_item": ["vegies", "egg", "bread toast"]
+
+	},
+
+	"20200730_103636.jpg": {
+		"recipe_name": "boiled egg and bread toast",
+		"food_item": ["boiled egg", "vegies", "bread toast"]
+
+	},
+
+	"20200811_100026.jpg": {
+		"recipe_name": "fluffy egg omlette",
+		"food_item": ["egg", "omlette"]
+
+	},
+
+	"20200814_120736.jpg": {
+		"recipe_name": "bread omelette",
+		"food_item": ["bread", "egg", "omlette"]
+
+
+	},
+
+	"20200824_124108.jpg": {
+		"recipe_name": "bread omelette with boiled vegies",
+		"food_item": ["bread", "egg", "omlette", "vegies"]
+	}
+
+}

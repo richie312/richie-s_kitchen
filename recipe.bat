@@ -1,0 +1,1 @@
+C:\pyhton_envs\recipe\Scripts\Activate.bat

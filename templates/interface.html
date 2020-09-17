@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 20%;
+  border-top: dashed;
+  border-right: dashed;
+  padding: 10px;
+  width: 350px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: left;
+  border-top: dashed;
+  width: 60%;
+  padding: 30px;
+  width: 800px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+.column3 {
+  float: left;
+  border-top: dashed;
+  width: 20%;
+  padding: 30px;
+  width: 800px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+  <h2 style="text-align: center">Recipe App</h2>
+<div class="row">
+  <div class="column1">
+    <!-- Create the dropdown to change recipe -->
+    <div class="container">
+      <form action="/" method=post>
+        <h4>Recipe</h4>
+        <label for="fname">Select recipe</label>
+        <select id="recipe_list" name="recipe_list" onchange="myFunction()">
+          <!-- Dynamic selected default value; coming from flask end -->
+          <option value="{{selected_value}}"> 
+            {{selected_value}} </option>
+        <!-- List out the recipe list -->    
+        {% for each in recipe_list %}
+         <option value="{{each}}">{{each}} </option>
+        {% endfor %}
+        </script>
+        </select>
+        <button id="hidden_recipe" name="hidden_recipe"  onclick="myFunction()">Update Recipe</button>
+          <script>
+            document.getElementById("recipe_list").onchange = function() {myFunction()};
+            function myFunction() {
+    
+              var get_value = document.getElementById("recipe_list").value;
+              document.getElementById("hidden_recipe").value = get_value;
+              alert(demo)
+            }
+          </script>
+        <br>
+        <br>
+        <br>
+        <label for="fname">Search Recipe</label>
+        
+        <br>
+        <br>
+      </form>
+    </div>
+  </div> 
+  <div class="column2"> 
+      
+      <p><strong>Recipe Details</strong></p>
+      <div class="row>""
+      <div class="row">
+        <div class="column">
+          <img src="{{ recipe_image }}" style="width:350px;height:300px;">
+        </div>
+        <div class="column">
+          <p><strong>Recipe Details</strong></p>
+          1. Take ½ cup tightly packed freshly grated coconut in a chutney grinder jar or a small grinder jar.
+
+making coconut chutney recipe
+2. Then add 1 green chilli (chopped), ½ inch ginger (chopped) and 2 tablespoons roasted chana dal. You can even add 2 green chillies. For a spicy taste add 2 to 3 green chillies. Ginger can be skipped. 1 to 2 small garlic cloves can also be added instead of ginger.
+
+making coconut chutney recipe
+3. Add salt as per taste. You can add less salt first. Then after grinding check the taste and add some more salt if required.
+
+making coconut chutney recipe
+4. Add 3 to 4 tablespoons water. You can even make coconut chutney thick by adding less water. You can even skip roasted chana dal if you do not have it. Roasted chana dal is different from raw chana dal. Roasted chana dal is crunchy and directly edible, unlike raw chana dal.
+
+making coconut chutney recipe
+5. Grind to a smooth consistency. If unable to grind or the chutney looks thick, then you can add 1 to 2 tablespoons more water.
+
+        </div>
+        <div class="row">
+           <p><strong>Preparation</strong></p>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
